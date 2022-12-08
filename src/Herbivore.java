@@ -40,7 +40,7 @@ public class Herbivore extends Mammal{
     @Override
     public String toString() {
         return "Кличка " + getName() + ", возраст: " + getAge() + " лет." + "\n"
-                + "Среда обитания: " + getHabitat() + ". Максимальная скорость: " + getSpeedMove() + "." + "\n"
+                + "Среда обитания: " + getHabitat() + ". Максимальная скорость: " + getSpeedMove() + " км/час." + "\n"
                 + getClass() + ", травоядное, ест " + food + "(ой)." + '\n';
     }
 }

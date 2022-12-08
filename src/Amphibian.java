@@ -13,7 +13,7 @@ public class Amphibian extends Animals {
         }
     }
 
-    public String getLeamePlace() {
+    public String getLeavePlace() {
         return LeavePlace;
     }
 
@@ -36,8 +36,7 @@ public class Amphibian extends Animals {
 
     @Override
     public String toString() {
-        return "Amphibian" +
-                "LeavePlace='" + LeavePlace + '\'' +
-                '}';
+        return "Кличка " + getName() + ", возраст: " + getAge() + " лет." + "\n"
+                + "Среда обитания: " + getLeavePlace() + "." + '\n';
     }
 }
