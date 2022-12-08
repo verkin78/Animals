@@ -39,8 +39,8 @@ public class Predator extends Mammal{
 
     @Override
     public String toString() {
-        return "Хищник, {" +
-                " питпается " + food + '\n' +
-                '}';
+        return "Кличка " + getName() + ", возраст: " + getAge() + " лет." + "\n"
+                + "Среда обитания: " + getHabitat() + ". Максимальная скорость: " + getSpeedMove() + "." + "\n"
+                + getClass() + ", хищник, ест " + food + "." + '\n';
     }
 }
