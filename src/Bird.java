@@ -20,6 +20,16 @@ public class Bird extends Animals{
     }
 
     @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void move() {
+
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;

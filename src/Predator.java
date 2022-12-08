@@ -21,6 +21,9 @@ public class Predator extends Mammal{
     }
 
     public void hunt() {
+        System.out.println(getName());
+        System.out.println("Начинаю охотиться");
+        System.out.println("Заканчиваю охоту");
     }
 
     @Override

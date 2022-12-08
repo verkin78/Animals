@@ -38,6 +38,14 @@ public class Main {
         System.out.println(gull);
         System.out.println(albatross);
         System.out.println(falcon);
+
+        System.out.println(falcon.equals(albatross));
+        System.out.println(albatross.equals(gull));
+        System.out.println(falcon.equals(gull));
+        System.out.println(gazelle.equals(horse));
+        System.out.println(gazelle.equals(horse));
+        tiger.hunt();
+        giraffe.graze();
     }
 
 }

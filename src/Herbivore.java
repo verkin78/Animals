@@ -21,6 +21,9 @@ public class Herbivore extends Mammal{
     }
 
     public void graze() {
+        System.out.println(getName());
+        System.out.println("Начинаю пастись");
+        System.out.println("Возвращаюсь домой.");
     }
 
     @Override

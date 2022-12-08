@@ -27,6 +27,19 @@ public class Mammal extends Animals{
      }
 
     public void walk() {
+        System.out.println("Я иду гулять");
+        System.out.println("Я поел");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Я приступаю к еде");
+        System.out.println("Прогулка окончена");
+    }
+
+    @Override
+    public void move() {
+
     }
 
     @Override

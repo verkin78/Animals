@@ -34,12 +34,10 @@ public abstract class Animals {
         }
     }
 
-    public void eat() {
-    }
+    public abstract void eat();
     public void sleep() {
     }
-    public void move() {
-    }
+    public abstract void move();
 
     @Override
     public boolean equals(Object o) {
